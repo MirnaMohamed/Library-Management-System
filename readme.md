@@ -28,5 +28,11 @@ Library Management System is a simple library project where you can add a book o
 1. Borrow a book
 2. Return book
 
+### Book Service Unit Test
+1. Add book test
+2. Find a book by ID test
+3. Find all books test
+4. Remove a book test
+
 ## Database Schema
 The application uses a relational database using PostgreSQL with tables for users, books, patrons, and borrowing records. 
