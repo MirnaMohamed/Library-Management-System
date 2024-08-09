@@ -1,9 +1,7 @@
 package com.example.librarymanagementsystem.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -11,7 +9,9 @@ import java.util.List;
 @Setter
 @Entity
 @Table(name = "patron")
-@RequiredArgsConstructor
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Patron {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
